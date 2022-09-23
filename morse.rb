@@ -14,3 +14,6 @@ end
 def decode_message(msgs)
     msgs.split('   ').map{|msg| decode_word(msg)}.join(' ')
 end
+puts decode_message('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...') # A BOX FULL OF RUBIES
+puts decode_message('-- -.--   -. .- -- .') #My name
+puts decode_char('.-') # A
